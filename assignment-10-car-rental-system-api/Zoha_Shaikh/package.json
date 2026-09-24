@@ -1,0 +1,36 @@
+{
+  "name": "itm-assignment-10-car-rental-api",
+  "version": "1.0.0",
+  "description": "Production-ready Car Rental & Vehicle Fleet Management API with Node.js, Express.js and Supabase (PostgreSQL & Auth)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "create-admin": "node scripts/createAdmin.js",
+    "test:smoke": "node scripts/smokeTest.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "car-rental",
+    "fleet-management",
+    "express",
+    "supabase",
+    "postgresql",
+    "jwt-auth"
+  ],
+  "author": "Kartik Wagh",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "ws": "^8.21.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
